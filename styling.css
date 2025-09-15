@@ -11,7 +11,7 @@ box-sizing: border-box;
 }
 body{
     font-family: "Viaoda Libre", cursive;
-    background-color: var(--bg);
+    background:url(background.png);
     color: var(--text);
     display: flex;
     flex-direction: column;
@@ -22,6 +22,7 @@ body{
 .container{
     margin: 30px;
     width: 350px;
+    border-radius: 10%;
 }
 h1{
     letter-spacing: 1px;
